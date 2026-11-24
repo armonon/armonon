@@ -6,12 +6,9 @@ I build software that connects interfaces, APIs, data and AI models to business
 workflows. My work spans backend development, full-stack applications and
 automation, with an emphasis on clear system behavior and testable integrations.
 
-- **Current role:** AI Agent Development — Legal Soft / Practice Management Solutions · Nov 2026–Present
 - **Focus:** Applied AI, backend APIs, full-stack applications and workflow automation
 - **Training:** 4Geeks Academy AI Engineering, academic stage completed in 2026; certificate review pending
 - **Based in:** Los Angeles, California
-
-My current work includes ongoing development of Practice360, an internal client-management and service-delivery portal.
 
 [Portfolio](https://armonnasiri.com) · [Email](mailto:armonnasiri@gmail.com)
 
