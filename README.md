@@ -14,22 +14,56 @@ automation, with an emphasis on clear system behavior and testable integrations.
 
 ## Selected projects
 
-### [TrackFlow Logistics Capstone](https://github.com/armonon/ai-engineering-company-project-monorepo)
+### [Luma Studio](https://github.com/armonon/luma-studio)
 
-A 4Geeks capstone using a simulated logistics business. The implementation brings
-together a Next.js backoffice, FastAPI services, RAG support and LangGraph
-workflows, including checkpointed human approval for proposal generation.
+A local-first image editor with a shared TypeScript engine for web and Tauri
+desktop workflows. My work includes the editing engine and local image
+segmentation. The implementation includes on-device subject matting and
+point-guided selection, alongside a Rust compositor for desktop workflows.
 
-**Explore:** [RFP approval implementation](https://github.com/armonon/ai-engineering-company-project-monorepo/blob/main/data/pipelines/rfp_intake/approval.py) · [Demo runbook](https://github.com/armonon/ai-engineering-company-project-monorepo/blob/main/docs/capstone/DEMO_RUNBOOK.md)
+**Stack:** TypeScript, React, Next.js, Tauri, Rust and Transformers.js.
+**Status:** Active development, with documented limits for RAW support,
+large documents and file interchange.
+
+**Explore:** [Portfolio case study](https://armonnasiri.com/work/luma-studio) · [On-device models](https://github.com/armonon/luma-studio/blob/main/app/engine/neural.ts) · [Native compositor](https://github.com/armonon/luma-studio/blob/main/crates/luma-core/src/composite.rs)
 
 ### [Sattari Music](https://github.com/armonon/sattari-custom-site)
 
 A business-facing React storefront with Stripe Checkout, server-side catalog
 pricing, inventory workflows and service inquiries through Netlify Functions.
-I develop and maintain the website and its operational integrations. The
-public storefront is live; Studio is alpha and Stem Separator is beta.
+I develop and maintain the website and its operational integrations.
+
+**Stack:** React, JavaScript, Vite, Stripe and Netlify Functions.
+**Status:** The public storefront is live; Studio is alpha and Stem Separator
+is beta.
 
 **Explore:** [Live website](https://sattarimusic.com) · [Checkout implementation](https://github.com/armonon/sattari-custom-site/blob/main/netlify/functions/create-checkout-session.js)
+
+### [TrackFlow Logistics Capstone](https://github.com/armonon/ai-engineering-company-project-monorepo)
+
+A 4Geeks capstone using a simulated logistics business. I built workflows that
+bring together a Next.js backoffice, FastAPI services, RAG support and
+LangGraph, including checkpointed human approval for proposal generation.
+
+**Stack:** Python, FastAPI, TypeScript, Next.js and LangGraph.
+**Status:** Coursework capstone using simulated business data.
+
+**Explore:** [RFP approval implementation](https://github.com/armonon/ai-engineering-company-project-monorepo/blob/main/data/pipelines/rfp_intake/approval.py) · [Demo runbook](https://github.com/armonon/ai-engineering-company-project-monorepo/blob/main/docs/capstone/DEMO_RUNBOOK.md)
+
+### [Librarian](https://github.com/armonon/librarian)
+
+A book-discovery and reading application. My work includes catalog aggregation,
+duplicate-record resolution and a server-side API proxy. The implementation
+combines parallel catalog requests with device-local PDF storage and reading
+workflows.
+
+**Stack:** JavaScript, Vite, Netlify Functions, PDF.js and IndexedDB.
+**Status:** Ongoing development. Catalog availability depends on the source
+services; AI recommendations are not currently available.
+
+**Explore:** [Portfolio case study](https://armonnasiri.com/work/librarian) · [Search and record resolution](https://github.com/armonon/librarian/blob/main/src/main.js) · [PDF storage](https://github.com/armonon/librarian/blob/main/src/pdf-storage.js)
+
+## Additional AI projects
 
 ### [Voice Command API](https://github.com/armonon/voice-command-api)
 
